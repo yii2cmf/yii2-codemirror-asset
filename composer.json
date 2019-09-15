@@ -1,0 +1,21 @@
+{
+    "name": "yii2cmf/yii2-codemirror-asset",
+    "description": "CodeMirror is a versatile text editor implemented in JavaScript for the browser. It is specialized for editing code, and comes with a number of language modes and addons that implement more advanced editing functionality.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","codemirror","highlighter"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Shandyrov Askar",
+            "email": "shandyrov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2cmf\\codemirror\\": "lib"
+        }
+    }
+}
