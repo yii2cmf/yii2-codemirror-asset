@@ -16,6 +16,7 @@ class CodeMirrorAsset extends AssetBundle
 
     public $js = [
         'lib/codemirror.js',
+        'lib/codemirror_init.js'
     ];
 
     public $css = [
