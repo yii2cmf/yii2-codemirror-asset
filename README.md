@@ -30,9 +30,10 @@ Register asset bundle in view:
 \yii2cmf\codemirror\CodeMirrorAsset::register($this); 
 ```
 
-Set a different theme if necessary:
+Set a different theme and mode if necessary:
 
 ```php
-$this->params['codemirror-theme'] = 'darcula';
+$this->params['codemirror_theme'] = 'darcula';
+$this->params['codemirror_mode'] = 'clike';
 \yii2cmf\codemirror\CodeMirrorAsset::register($this); 
 ```
