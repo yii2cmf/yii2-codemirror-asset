@@ -10,12 +10,10 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-composer require yii2cmf/yii2-codemirror-asset "1.0"```
-
-or add
-
+composer require yii2cmf/yii2-codemirror-asset "1.0"
 ```
-"yii2cmf/yii2-codemirror-asset": "*"
+```
+"yii2cmf/yii2-codemirror-asset": "1.0"
 ```
 
 to the require section of your `composer.json` file.
